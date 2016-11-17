@@ -31,12 +31,12 @@
 // version 2.2 of Bison.
 
 /**
- ** \file handlebars/position.hh
+ ** \file ../../qt-handlebars/src/handlebars/position.hh
  ** Define the Handlebars::position class.
  */
 
-#ifndef YY_YY_HANDLEBARS_POSITION_HH_INCLUDED
-# define YY_YY_HANDLEBARS_POSITION_HH_INCLUDED
+#ifndef YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_POSITION_HH_INCLUDED
+# define YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_POSITION_HH_INCLUDED
 
 # include <algorithm> // std::max
 # include <iostream>
@@ -50,9 +50,9 @@
 #  endif
 # endif
 
-#line 19 "handlebars/Handlebars.y" // location.cc:296
+#line 19 "../../qt-handlebars/src/handlebars/Handlebars.y" // location.cc:296
 namespace Handlebars {
-#line 56 "handlebars/position.hh" // location.cc:296
+#line 56 "../../qt-handlebars/src/handlebars/position.hh" // location.cc:296
   /// Abstract a position.
   class position
   {
@@ -156,7 +156,7 @@ namespace Handlebars {
     return ostr << pos.line << '.' << pos.column;
   }
 
-#line 19 "handlebars/Handlebars.y" // location.cc:296
+#line 19 "../../qt-handlebars/src/handlebars/Handlebars.y" // location.cc:296
 } // Handlebars
-#line 162 "handlebars/position.hh" // location.cc:296
-#endif // !YY_YY_HANDLEBARS_POSITION_HH_INCLUDED
+#line 162 "../../qt-handlebars/src/handlebars/position.hh" // location.cc:296
+#endif // !YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_POSITION_HH_INCLUDED

@@ -1,0 +1,14 @@
+{
+	"name": "mdhooge/qt-handlebars",
+	"description": "A Qt-based library that provides a handlebars-like templating engine",
+	"authors": [
+		{
+			"name": "Michel D'HOOGE",
+			"email": "michel.dhooge@gmail.com"
+		}
+    ],
+    "require-global": {
+        "flex": "sudo apt install flex",
+        "bison": "sudo apt install bison"
+    }
+}

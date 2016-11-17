@@ -2,4 +2,7 @@ build
 demo
 lib
 Makefile*
+*.user
+*.un~
+vendor
 /test

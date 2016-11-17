@@ -31,18 +31,18 @@
 // version 2.2 of Bison.
 
 /**
- ** \file handlebars/stack.hh
+ ** \file ../../qt-handlebars/src/handlebars/stack.hh
  ** Define the Handlebars::stack class.
  */
 
-#ifndef YY_YY_HANDLEBARS_STACK_HH_INCLUDED
-# define YY_YY_HANDLEBARS_STACK_HH_INCLUDED
+#ifndef YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_STACK_HH_INCLUDED
+# define YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_STACK_HH_INCLUDED
 
 # include <vector>
 
-#line 19 "handlebars/Handlebars.y" // stack.hh:132
+#line 19 "../../qt-handlebars/src/handlebars/Handlebars.y" // stack.hh:132
 namespace Handlebars {
-#line 46 "handlebars/stack.hh" // stack.hh:132
+#line 46 "../../qt-handlebars/src/handlebars/stack.hh" // stack.hh:132
   template <class T, class S = std::vector<T> >
   class stack
   {
@@ -150,8 +150,8 @@ namespace Handlebars {
     unsigned int range_;
   };
 
-#line 19 "handlebars/Handlebars.y" // stack.hh:132
+#line 19 "../../qt-handlebars/src/handlebars/Handlebars.y" // stack.hh:132
 } // Handlebars
-#line 156 "handlebars/stack.hh" // stack.hh:132
+#line 156 "../../qt-handlebars/src/handlebars/stack.hh" // stack.hh:132
 
-#endif // !YY_YY_HANDLEBARS_STACK_HH_INCLUDED
+#endif // !YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_STACK_HH_INCLUDED

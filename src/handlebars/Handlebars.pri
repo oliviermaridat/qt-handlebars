@@ -8,7 +8,7 @@ SOURCES += \
   $$PWD/HandlebarsParsingContext.cpp \
   $$PWD/HandlebarsRenderingContext.cpp \
 
-HEADERS += \
+PUBLIC_HEADERS += \
   $$PWD/HandlebarsFlex.h \
   $$PWD/HandlebarsHelpers.h \
   $$PWD/HandlebarsIStreamManager.h \
@@ -16,6 +16,8 @@ HEADERS += \
   $$PWD/HandlebarsParser.h \
   $$PWD/HandlebarsParsingContext.h \
   $$PWD/HandlebarsRenderingContext.h \
+
+HEADERS += $$PUBLIC_HEADERS
 
 FLEXSOURCE = $$PWD/Handlebars.l
 BISONSOURCE = $$PWD/Handlebars.y

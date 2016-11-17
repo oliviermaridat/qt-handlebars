@@ -31,18 +31,18 @@
 // version 2.2 of Bison.
 
 /**
- ** \file handlebars/location.hh
+ ** \file ../../qt-handlebars/src/handlebars/location.hh
  ** Define the Handlebars::location class.
  */
 
-#ifndef YY_YY_HANDLEBARS_LOCATION_HH_INCLUDED
-# define YY_YY_HANDLEBARS_LOCATION_HH_INCLUDED
+#ifndef YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_LOCATION_HH_INCLUDED
+# define YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_LOCATION_HH_INCLUDED
 
 # include "position.hh"
 
-#line 19 "handlebars/Handlebars.y" // location.cc:296
+#line 19 "../../qt-handlebars/src/handlebars/Handlebars.y" // location.cc:296
 namespace Handlebars {
-#line 46 "handlebars/location.hh" // location.cc:296
+#line 46 "../../qt-handlebars/src/handlebars/location.hh" // location.cc:296
   /// Abstract a location.
   class location
   {
@@ -172,7 +172,7 @@ namespace Handlebars {
     return ostr;
   }
 
-#line 19 "handlebars/Handlebars.y" // location.cc:296
+#line 19 "../../qt-handlebars/src/handlebars/Handlebars.y" // location.cc:296
 } // Handlebars
-#line 178 "handlebars/location.hh" // location.cc:296
-#endif // !YY_YY_HANDLEBARS_LOCATION_HH_INCLUDED
+#line 178 "../../qt-handlebars/src/handlebars/location.hh" // location.cc:296
+#endif // !YY_YY_QT_HANDLEBARS_SRC_HANDLEBARS_LOCATION_HH_INCLUDED
